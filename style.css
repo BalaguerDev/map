@@ -4,7 +4,20 @@ html, body{
 
 }
 
+.featurette-divider{
+    color:white;
+}
 
+h3{
+    color: white;
+    font-size: 10px;
+}
+
+p{
+    color: white;
+    font-size: 14px;
+    text-align: justify;
+}
 
 .rules{
     width: 33%;
@@ -16,8 +29,6 @@ html, body{
 
 #map{
     height: 100vh;
-    z-index: 0;
-    position: relative;
 }
 
 .logoimg{
@@ -28,5 +39,17 @@ html, body{
 .logo{
     width: 20vw;
 }
+
+.form-control{
+    background-color: rgba(255, 255, 255, 0);    
+    border: 1 white;
+    color: white;
+}
+
+.options button{
+    width: 106px;   
+}
+
+
 
 

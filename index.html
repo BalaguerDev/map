@@ -11,6 +11,8 @@
 
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- fontAwesome -->
+    <script src="https://kit.fontawesome.com/b5b0d82831.js" crossorigin="anonymous"></script>
 
     <title>MapRun</title>
  <body>
@@ -19,8 +21,39 @@
 
   
     <div class="rules">
-        <div class="logoimg">
+        <div class="logoimg my-5">
             <img class="logo"src="./assets/logo.png" alt="">
+            <p class="my-5"><strong>MapView</strong>, el buscador por excelencia de los desarrolladores, busca de manera rápida el mejor sitio para trabajar, poder relajarte o para pasar la noche.</p>
+            <hr class="featurette-divider my-5">
+
+            <!-- barra de busqueda -->
+            <div class="d-flex justify-content-center my-5">
+                <form class="input-group-sm" style="width:25vw">
+                    <input class="form-control" type="search" placeholder="Encuentra los mejores lugares..." aria-label="Search">
+                </form>
+            </div>
+
+            <!-- botones de selección importantes -->
+            <h3>Destacados</h3>
+            <p class="my-2">Te traemos la mejor selección de lugares predefinidos según tu ubicación</p>
+            <div class="options my-3">
+                <a style="width:14vw" id="hotels" type="button" class="btn btn-sm m-2 btn-outline-light"><i class="fa-solid fa-bed"></i> Hoteles</a>
+
+                <a style="width:14vw" id="bars" type="button" class="btn btn-sm m-2 btn-outline-light"><i class="fa-solid fa-martini-glass"></i> Bares</a>
+
+                <a style="width:14vw" id="fuel" type="button" class="btn btn-sm m-2 btn-outline-light"><i class="fa-solid fa-gas-pump"></i> Gasolina</a>
+
+                <a style="width:14vw" id="parks" type="button" class="btn btn-sm m-2 btn-outline-light"><i class="fa-solid fa-tree"></i> Parques</a>
+
+                <a style="width:14vw" id="house" type="button" class="btn btn-sm m-2 btn-outline-light"><i class="fa-solid fa-house"></i> Casa</a>
+
+            </div>
+
+            
+
+           
+
+            
         </div>
     </div>
 
